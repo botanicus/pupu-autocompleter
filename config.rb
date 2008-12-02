@@ -2,8 +2,8 @@
 dependencies :mootools
 
 # javascripts for loading
-javascripts "observer", "autocompleter", :in => "lib"
+javascripts "observer", "autocompleter"
 
-parameter :request, :optional => ["local", "ajax"] do |type|
-  javascript "lib/autocompleter.#{type}"
+parameter :type, :optional => ["local", "request"] do |type|
+  javascript "autocompleter.#{type}"
 end

@@ -2,7 +2,7 @@ h1. About merb_pupu
 
 Merb_pupu is a plugin system for merb's public stuff like mootools plugins, icon sets etc. It knows dependencies and it has CLI interface, so it's really easy to bundle such plugins into your app. Please see http://github.com/botanicus/merb_pupu for more informations.
 
-h1. About <%= name %>
+h1. About autocompleter
 
 h1. Usage
 
@@ -13,8 +13,8 @@ h2. Layout
 plugin :autocompleter
 
 # for local requests through Autocompleter.Request class
-plugin :autocompleter, :request => "local"
+plugin :autocompleter, :type => "local"
 
 # for ajax requests through Autocompleter.Request class
-plugin :autocompleter, :request => "ajax"
+plugin :autocompleter, :type => "request"
 </pre>
