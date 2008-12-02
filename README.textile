@@ -4,7 +4,13 @@ Merb_pupu is a plugin system for merb's public stuff like mootools plugins, icon
 
 h1. About autocompleter
 
+This pupu is based on "digitarald's mootools autocompleter":http://digitarald.de/project/autocompleter. It's very flexible and configuratable. It can deal with local data, and few types of AJAX requests (basic request, JSON and HTM request). For more informations please see the showcases on digitarald's page.
+
 h1. Usage
+
+h2. Initializer
+
+Edit the public/javascripts/initializers/autocompleter.js.
 
 h2. Layout
 
